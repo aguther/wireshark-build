@@ -65,4 +65,15 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     privileged: false,
     inline: "/vagrant/wireshark-build.sh"
 
+  # copy result
+  config.vm.provision :shell,
+    privileged: false,
+    inline: "rm -rf /vagrant/result; mkdir -p /vagrant/result"
+  config.vm.provision :shell,
+    privileged: false,
+    inline: "cp /tmp/wireshark/packaging/rpm/RPMS/x86_64/*.rpm /vagrant/result"
+  config.vm.provision :shell,
+    privileged: false,
+    inline: "cp /tmp/wireshark/packaging/rpm/SRPMS/*.rpm /vagrant/result"
+
 end
