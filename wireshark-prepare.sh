@@ -17,7 +17,7 @@ yum install -y \
     libnghttp2-devel \
     libpcap-devel \
     libtool \
-    libxml2-devel
+    libxml2-devel \
     lz4-devel \
     qt-devel \
     qt5-linguist \
