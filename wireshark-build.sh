@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # defaults
-WIRESHARK_VERSION_TAG=v2.4.2
+WIRESHARK_VERSION_TAG=v2.4.4
 WIRESHARK_BUILD_DIRECTORY=/tmp/wireshark
 
 # ensure directory is not present
