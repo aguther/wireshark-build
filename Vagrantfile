@@ -11,8 +11,8 @@ VAGRANTFILE_API_VERSION = "2"
 require 'vagrant-vbguest'
 
 # define virtual machine hardware
-$vm_cpus = (ENV['VM_CPUS'] || 1).to_i
-$vm_memory = (ENV['VM_MEMORY'] || 1024).to_i
+$vm_cpus = (ENV['VM_CPUS'] || 4).to_i
+$vm_memory = (ENV['VM_MEMORY'] || 4096).to_i
 
 # should the vm use a proxy?
 if $vm_proxy_enabled = (ENV['VM_PROXY']).to_s != "" ? true : false == true
