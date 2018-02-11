@@ -20,7 +20,7 @@ git checkout tags/${WIRESHARK_VERSION_TAG}
 ./autogen.sh
 
 # configure
-./configure
+./configure --with-gtk=yes --with-qt=no
 
 # build
 make rpm-package
