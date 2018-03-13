@@ -5,23 +5,23 @@ yum install -y epel-release
 
 # install needed packages
 yum install -y \
-    bison \
-    c-ares-devel \
-    desktop-file-utils \
-    flex \
-    gcc \
-    gcc-c++ \
-    git \
-    gtk3-devel \
-    libgcrypt-devel \
+    bison-2.7-4.el7 \
+    c-ares-devel-1.10.0-3.el7 \
+    desktop-file-utils-0.22-1.el7 \
+    flex-2.5.37-3.el7 \
+    gcc-4.8.5-4.el7 \
+    gcc-c++-4.8.5-4.el7 \
+    git-1.8.3.1-5.el7 \
+    gtk3-devel-3.14.13-16.el7 \
+    libgcrypt-devel-1.5.3-12.el7_1.1 \
     libnghttp2-devel \
     libpcap-devel \
-    libtool \
-    libxml2-devel \
+    libtool-2.4.2-20.el7 \
+    libxml2-devel-2.9.1-5.el7_1.2 \
     lz4-devel \
-    qt-devel \
+    qt-devel-1:4.8.5-11.el7 \
     qt5-linguist \
     qt5-qtbase-devel \
     qt5-qtmultimedia-devel \
-    rpm-build \
+    rpm-build-4.11.3-17.el7 \
     snappy-devel
