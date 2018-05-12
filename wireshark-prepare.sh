@@ -11,7 +11,7 @@ yum install -y \
     flex-2.5.37-3.el7 \
     gcc-4.8.5-4.el7 \
     gcc-c++-4.8.5-4.el7 \
-    git-1.8.3.1-5.el7 \
+    git \
     gtk3-devel-3.14.13-16.el7 \
     libgcrypt-devel-1.5.3-12.el7_1.1 \
     libnghttp2-devel \
