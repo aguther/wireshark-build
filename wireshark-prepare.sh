@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # install epel
-yum install -y epel-release
+yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 # install needed packages
 yum install -y \
