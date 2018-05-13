@@ -23,8 +23,5 @@ yum install -y \
     libxml2-devel-2.9.1-5.el7_1.2 \
     lz4-devel \
     qt-devel-1:4.8.5-11.el7 \
-    qt5-linguist \
-    qt5-qtbase-devel \
-    qt5-qtmultimedia-devel \
     rpm-build-4.11.3-17.el7 \
     snappy-devel
