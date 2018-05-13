@@ -22,6 +22,6 @@ yum install -y \
     libtool-2.4.2-20.el7 \
     libxml2-devel-2.9.1-5.el7_1.2 \
     lz4-devel \
-    qt-devel-1:4.8.5-11.el7 \
+    qt-devel-4.8.5-11.el7 \
     rpm-build-4.11.3-17.el7 \
     snappy-devel
