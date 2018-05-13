@@ -6,6 +6,9 @@ yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarc
 # install ius
 yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 
+# ensure git is not installed
+yum erase -y git perl-Git
+
 # install needed packages
 yum install -y \
     bison-2.7-4.el7 \
