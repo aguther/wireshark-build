@@ -3,6 +3,9 @@
 # install epel
 yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
+# install ius
+yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+
 # install needed packages
 yum install -y \
     bison-2.7-4.el7 \
